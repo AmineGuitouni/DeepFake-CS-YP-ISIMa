@@ -294,7 +294,7 @@ if __name__ == '__main__':
         print("threshold %.4f, pixel-f1%s: %.4f" % (args.threshold, (' (' + ''.join(args.subsets[i]) + ')' if i != len(args.subsets) else ''), meanf1))
 
         acc, sen, spe, f1_imglevel, tp, tn, fp, fn = calculate_img_score(y_pred, y_true)
-        print(y_pred.shape, y_true.shape, y_pred , y_true)
+        
         print("threshold %.4f, img level acc%s: %.4f sen: %.4f  spe: %.4f  f1: %.4f auc: %.4f"
             % (args.threshold, (' (' + ''.join(args.subsets[i]) + ')' if i != len(args.subsets) else ''), acc, sen, spe, f1_imglevel, img_auc))
         print("threshold %.4f, combine f1%s: %.4f" % (args.threshold, (' (' + ''.join(args.subsets[i]) + ')' if i != len(args.subsets) else ''), 2*meanf1*f1_imglevel/(f1_imglevel+meanf1+1e-6)))
