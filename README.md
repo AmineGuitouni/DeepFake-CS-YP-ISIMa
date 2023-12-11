@@ -1,6 +1,6 @@
 # Shallow- and Deep-fake Image Manipulation Localization Using Deep Learning
 
-original paper rep => <a href="https://github.com/zjbthomas/ShallowDeepFakesLocalization/tree/main">click here</a>
+original paper Repository => <a href="https://github.com/zjbthomas/ShallowDeepFakesLocalization/tree/main">click here</a>
 
 ## Datasets
 
