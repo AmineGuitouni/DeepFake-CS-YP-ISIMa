@@ -49,12 +49,13 @@ Run the following code to train the network.
 For the option `--model`, to reproduce experiments in Table III of our paper:
 
 ```
-python -u train_torch.py --paths_file /path/to/train.txt --val_paths_file /path/to/val.txt --model {mvssnet, upernet, ours}
+python -u train_ISIMA_Model.py --train_path /path/to/train.txt --target_part seg --load_path_main /path/to/trained/backbonemodel.path --load_path_cls /path/to/trained/classifier.path
 ```
 
 ### Testing
 
 Run the following code to evaluate the network.
 
-python -u evaluate.py --paths_file /path/to/test.txt --load_path /path/to/trained/model.path --model {mvssnet, upernet, ours}
+```
+python -u evaluate.py --paths_file /path/to/test.txt --load_path /path/to/trained/backbonemodel.path --train_target {"seg", "cls"} --model ISIMA
 ```
