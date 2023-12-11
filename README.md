@@ -31,7 +31,7 @@ The format of each line in these files is as the following. For authentic images
 
 <a href="https://www.dropbox.com/s/zzk4eump5xfbqmz/9.pth?dl=0">backbone</a>
 
-### ore Custem Classifier :
+### our Custem Classifier :
 
 ![](./github/classifier.png)
 
