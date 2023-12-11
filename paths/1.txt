@@ -1,0 +1,1 @@
+ori/CASIAv2/images/Tp/Tp_S_CNN_S_B_pla20010_pla20010_02393.tif ori/CASIAv2/masks/Tp_S_CNN_S_B_pla20010_pla20010_02393_gt.png None 1
