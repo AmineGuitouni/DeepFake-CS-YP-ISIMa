@@ -23,9 +23,13 @@ The format of each line in these files is as the following. For authentic images
 /path/to/image.png /path/to/mask.png /path/to/egde.png 0/1
 ```
 
-###backbone network:
+### backbone model achitectore :
 
 ![](./github/network.png)
+
+### ore Custem Classifier :
+
+![](./github/.png)
 
 ## Usage
 
