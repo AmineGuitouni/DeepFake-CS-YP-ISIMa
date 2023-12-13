@@ -39,7 +39,7 @@ The format of each line in these files is as the following. For authentic images
 
 #### download model :
 
-<a href="https://www.dropbox.com/">Classifier</a>
+<a href="https://drive.google.com/file/d/1122c6LfKXq44ozRdDpicBjwYul-zP5LP/view?usp=sharing">Classifier</a>
 
 ## Usage
 
