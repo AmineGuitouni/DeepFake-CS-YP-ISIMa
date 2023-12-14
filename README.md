@@ -51,7 +51,7 @@ Run the following code to train the network.
 For the option `--model`, to reproduce experiments in Table III of our paper:
 
 ```
-python -u train_ISIMA_Model.py --train_path /path/to/train.txt --target_part seg --load_path_main /path/to/trained/backbonemodel.path --train_target {"seg", "cls"}
+python -u train_ISIMA_Model.py --train_path /path/to/train.txt --load_path_main /path/to/trained/backbonemodel.path --target_part {seg, cls}
 ```
 
 ### Testing
